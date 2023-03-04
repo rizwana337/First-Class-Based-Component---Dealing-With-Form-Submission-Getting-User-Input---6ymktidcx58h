@@ -2,8 +2,8 @@ import React from 'react'
 import '../styles/App.css';
 
 class App extends React.Component {
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     this.state = {
         name:"Jhon Doe",
         enrollmentNo: "12345678", 
